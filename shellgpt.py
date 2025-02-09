@@ -68,7 +68,7 @@ def process_audio(file_path):
   
 # Adjust the prompt to your taste (and configuration)  
 def send_to_chatgpt(text):  
-    text = "What is the shell command for " + text + "? Imagine you're a shell assistant. All your "\  
+    text = "What is the shell command for " + text + "? Imagine you're a shell assistant. All your answers"\  
                                                          "are exclusively shell command lines. Simply give "\  
                                                          "the command, without comment. Your answer must be formatted as "\  
                                                          "shell code. These commands are intended for a Manjaro linux system." \  
